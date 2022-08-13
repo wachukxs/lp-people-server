@@ -5,3 +5,5 @@ final-image.png
 node_modules
 
 .env
+*.log
+*.logs

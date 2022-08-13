@@ -10,7 +10,6 @@ const ImageRoutes = require('../controllers/ImageController');
 let morganFormat = 'tiny'
 if (app.get('env') === 'production') { // process.env.NODE_ENV
     app.set('trust proxy', 1) // trust first proxy
-    expressSessionOptions.cookie.secure = true;
     morganFormat = ':remote-addr - :remote-user [:date[web]] ":method :url HTTP/:http-version" :status :res[content-length] ":referrer" ":user-agent"'
 }
 
