@@ -38,7 +38,7 @@ module.exports = {
               images[0].print(font, 30, 750, 'MY NAME IS');
               images[0].print(font, 30, 820, (req.body.name ? printableText(req.body.name) : `Hello!!`));
               
-              if (process.env.CURR_ENV && process.env.CURR_ENV !== "production") {
+              if (process.env.NODE_ENV && process.env.NODE_ENV !== "production") {
                 images[0]
                 .write('final-image.png', () => {
                   console.log('check it');
