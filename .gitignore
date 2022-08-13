@@ -1,0 +1,7 @@
+*.jpeg
+assets/images/not-transparent-background.png
+final-image.png
+
+node_modules
+
+.env

@@ -1,0 +1,19 @@
+{
+  "name": "labour-party-logo-generator",
+  "version": "0.0.1",
+  "private": true,
+  "description": "for obidients by obidients",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --trace-warnings --unhandled-rejections=warn ./index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "jimp": "^0.16.1",
+    "morgan": "^1.10.0"
+  }
+}
